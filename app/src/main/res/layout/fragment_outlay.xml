@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.OutlayFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp">
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textViewIncomeDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设备回收"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        />
+
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/listView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>
